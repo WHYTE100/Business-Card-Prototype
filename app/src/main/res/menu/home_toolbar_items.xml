@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myapplication20.MainActivity">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:orderInCategory="20"
+        android:icon="@mipmap/search_gold"
+        app:tint="@color/colorPrimaryDark"
+        android:title="Search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.widget.SearchView" />
+
+</menu>

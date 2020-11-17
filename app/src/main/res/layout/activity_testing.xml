@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".TestingActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp" android:id="@+id/numberInputLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Call Patient"
+            android:textAllCaps="true"
+            android:id="@+id/textView" android:layout_gravity="center_horizontal"
+            android:textColor="@color/off_white"
+            android:textSize="@dimen/fields_textsize"/>
+        <EditText
+            android:id="@+id/callName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/edittext_singleline"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:hint="Enter Patient Name"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/icon_fullname"
+            android:inputType="textAutoComplete"
+            android:imeOptions="flagNoExtractUi"
+            android:textColor="@color/off_white"
+            android:completionThreshold="1">
+
+            <requestFocus/>
+        </EditText>
+        <TextView
+            android:id="@+id/tv_check_connection"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            style="@style/edittext_singleline"
+            android:textColor="@color/off_white"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/numberInputLayout"
+        android:paddingBottom="24dp"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/infoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logged in as: "
+            android:textAllCaps="true"
+            android:textSize="@dimen/fields_textsize"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/off_white" />
+
+        <TextView
+            android:id="@+id/loggedInName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Someone"
+            android:textSize="@dimen/fields_textsize"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/off_white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageButton
+            android:id="@+id/callButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/roundforreceive"
+            android:src="@drawable/receive"
+            android:text="CALL"
+            android:textColor="@color/off_white"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/callButton"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"
+            android:background="@android:color/transparent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/off_white"
+            android:textAllCaps="true"
+            android:text="Stop service"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+</RelativeLayout>

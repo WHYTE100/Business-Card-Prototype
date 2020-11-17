@@ -1,0 +1,179 @@
+{
+  "project_info": {
+    "project_number": "773542247060",
+    "firebase_url": "https://tonsealliance-ce0ab.firebaseio.com",
+    "project_id": "tonsealliance-ce0ab",
+    "storage_bucket": "tonsealliance-ce0ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773542247060:android:53886a411b5c1424fb5281",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773542247060-aulae20tnilhcdctg6fgeo0j93e3afl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGD86eBM3yH-Tnsfvqy_WUE8k-AW_uiKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773542247060-aulae20tnilhcdctg6fgeo0j93e3afl2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "773542247060-sk91tijf0fpe72vppfei7pohs75kdq76.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pride.BusinessCard"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773542247060:android:7563e65f0f5375f3fb5281",
+        "android_client_info": {
+          "package_name": "com.pride.businesscard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773542247060-kg3f5h17jmrjhp1v39jim48bccrccoc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pride.businesscard",
+            "certificate_hash": "70f006162a93581a65588ddb1db5ffedf6c994ee"
+          }
+        },
+        {
+          "client_id": "773542247060-aulae20tnilhcdctg6fgeo0j93e3afl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGD86eBM3yH-Tnsfvqy_WUE8k-AW_uiKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773542247060-aulae20tnilhcdctg6fgeo0j93e3afl2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "773542247060-sk91tijf0fpe72vppfei7pohs75kdq76.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pride.BusinessCard"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773542247060:android:a27411b07ce70a4ffb5281",
+        "android_client_info": {
+          "package_name": "com.pridetechnologies.businesscard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773542247060-0ngt9j4n7s9f4ouqn9hnlppmogd0f5kd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pridetechnologies.businesscard",
+            "certificate_hash": "70f006162a93581a65588ddb1db5ffedf6c994ee"
+          }
+        },
+        {
+          "client_id": "773542247060-aulae20tnilhcdctg6fgeo0j93e3afl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGD86eBM3yH-Tnsfvqy_WUE8k-AW_uiKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773542247060-aulae20tnilhcdctg6fgeo0j93e3afl2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "773542247060-sk91tijf0fpe72vppfei7pohs75kdq76.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pride.BusinessCard"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773542247060:android:ae6c5d15396f3180fb5281",
+        "android_client_info": {
+          "package_name": "com.test.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773542247060-s920hah3kl05de5ihrm0nro7kf7fb6ig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.test.myapplication",
+            "certificate_hash": "70f006162a93581a65588ddb1db5ffedf6c994ee"
+          }
+        },
+        {
+          "client_id": "773542247060-aulae20tnilhcdctg6fgeo0j93e3afl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGD86eBM3yH-Tnsfvqy_WUE8k-AW_uiKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773542247060-aulae20tnilhcdctg6fgeo0j93e3afl2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "773542247060-sk91tijf0fpe72vppfei7pohs75kdq76.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pride.BusinessCard"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

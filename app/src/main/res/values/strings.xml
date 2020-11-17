@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Business Card</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="welcome">WELCOME</string>
+    <string name="email2">Email</string>
+    <string name="register">Register</string>
+    <string name="password2">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="title_activity_agents_map">Map</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="enter_your_email">Enter your email</string>
+
+    <string name="capture">Capture</string>
+    <string name="preview_area">Preview Area</string>
+    <string name="weak">Weak</string>
+    <string name="medium">Medium</string>
+    <string name="strong">Strong</string>
+    <string name="very_strong">Very Strong</string>
+    <string name="good">Good</string>
+    <string name="CLIENT_ID">AYXpoSidgeq7Cabc-DdfcV3CqYUlOKfLUCd0ywJS7rn3X2b8MBIDNk10m56PI7aQT5pzCWOmY6rm-wjT</string>
+
+
+    <string name="subscription_period_prompt">Select your subscription period</string>
+    <string name="subscription_resignup_prompt">To reactivate your subscription, select your subscription period</string>
+    <string name="subscription_update_prompt">To change your subscription, select your new subscription period</string>
+    <string name="subscription_period_monthly">Monthly $1.99</string>
+    <string name="subscription_period_threemonth">Three Month $4.99</string>
+    <string name="subscription_period_sixmonth">Six Month $6.99</string>
+    <string name="subscription_period_yearly">Yearly $11.99</string>
+    <string name="subscription_prompt_continue">Continue</string>
+    <string name="subscription_prompt_cancel">Cancel</string>
+    <string name="content_description_app_loading_image">App loading image</string>
+    <string name="content_description_title_image">80\'s Video Game Style Car Logo</string>
+    <string name="content_desc_gas_gauge_indicator">Gas gauge indicator</string>
+    <string name="content_desc_free_vs_premium_indicator">Free or Premium Image Indicator</string>
+
+
+    <string name="title_activity_call_screen">CallScreenActivity</string>
+
+    <string name="web_baseurl">http://chw.watifhealth.com:81/services/</string><!-- 69 server-->
+    <string name="web_patient_search_predictive">patient_search_predictive.php</string>
+    <string name="close_btn">Close</string>
+    <string name="ok_btn">Okay</string>
+    <string name="response_str">response</string>
+    <string name="message_str">message</string>
+    <string name="data_str">data</string>
+    <string name="response_true_str">true</string>
+    <string name="response_false_str">false</string>
+    <string name="font_RobotoLightItalic">Roboto-LightItalic.ttf</string>
+    <string name="tag_PatientId">PatientId</string>
+    <string name="tag_UnitId">Unit_Id</string>
+    <string name="font_RobotoRegular">Roboto-Regular.ttf</string>
+
+    <string name="offline_message_1">Connection down?</string>
+    <string name="offline_message_2">WIFI and mobile data are supported.</string>
+    <string name="closed">Closed</string>
+    <string name="try_again">Try Again</string>
+    <string name="timer">00:00:00</string>
+
+    <!--No connection dialog-->
+    <string name="no_connection_title">Connection error</string>
+    <string name="error">Error</string>
+    <string name="no_connection_message">Please check your internet connection</string>
+    <string name="title_activity_show_web_view">ShowWebView</string>
+    <string name="check_connection">Please check your Network Connection!</string>
+    <string name="ok">OK</string>
+    <string name="share">Share</string>
+
+
+    <string name="facebook_app_id">1447355232304160</string>
+    <string name="fb_login_protocol_scheme">fb1447355232304160</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+
+</resources>

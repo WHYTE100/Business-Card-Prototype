@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFD700</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#515151</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="primaryDark">#95821B</color>
+    <color name="blackOpacity">#A4000000</color>
+    <color name="grayOpacity">#BACDC3C3</color>
+    <color name="yellowOpacity">#B0FDD835</color>
+    <color name="pinkOpacity">#B0FB237A</color>
+    <color name="blueOpacity">#B9304FFE</color>
+    <color name="grayLight">#66FFFAFA</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="green">#4EFF03</color>
+    <color name="yellow">#FFDD00</color>
+    <color name="primaryFade">#900004FF</color>
+    <color name="red">#FF0000</color>
+    <color name="tp">#00FFFFFF</color>
+
+    <color name="sinch_purple">#ff63029d</color>
+    <color name="sinch_white">#ffff</color>
+    <color name="off_white">#fffafafa</color>
+    <color name="greyish">#fff2f1f2</color>
+    <color name="transperentblack">#77000000</color>
+
+</resources>

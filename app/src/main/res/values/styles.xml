@@ -1,0 +1,63 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">@font/assistant_semibold</item>
+    </style>
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/login_view_box_stroke</item>
+        <item name="hintTextColor">@color/colorPrimaryDark</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+    <style name="ColorPrimaryTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/view_box_stroke</item>
+        <item name="hintTextColor">@color/primaryDark</item>
+        <item name="android:textColorHint">@color/primaryDark</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+    <style name="OutlineButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/colorPrimary</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="rippleColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="OutlineButtonBlack" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/colorPrimaryDark</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="rippleColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    //Sinch
+    <style name="button_watif">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/fields_textsize</item>
+    </style>
+
+    <style name="edittext_singleline">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textSize">@dimen/fields_textsize</item>
+        <item name="android:background">@drawable/registration_field_box</item>
+        <item name="android:drawablePadding">@dimen/fields_leftpadding</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ems">10</item>
+    </style>
+
+</resources>
